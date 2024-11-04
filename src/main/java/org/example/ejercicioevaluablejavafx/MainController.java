@@ -72,12 +72,12 @@ public class MainController implements Initializable {
         String platform = tfPlatform.getText();
         Boolean isAdmin = checkAdmin.isSelected();
 
-        Integer version = 1;  // Podrías obtenerlo de otro TextField si quieres hacerlo dinámico
-        String date = "Fecha actual"; // O usa otro TextField para ingresar la fecha
+        Integer version = 1;  
+        String date = "Fecha actual"; 
 
-        // Validar que los campos necesarios no estén vacíos
+        
         if (mail.isEmpty() || platform.isEmpty()) {
-            // Muestra un mensaje o alerta indicando que los campos son obligatorios
+            
             System.out.println("Por favor, completa todos los campos obligatorios.");
             return;
         }
