@@ -1,5 +1,8 @@
 package org.example.ejercicioevaluablejavafx;
 
+
+import org.example.ejercicioevaluablejavafx.models.User;
+import org.example.ejercicioevaluablejavafx.models.UserUtils;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
